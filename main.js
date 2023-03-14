@@ -1,17 +1,17 @@
 // Initialize Firebase (ADD YOUR OWN DATA)
 var config = {
-    apiKey: "AIzaSyCWfItv8JQSEz6q5k9vMXKPPf9u4qS5_0c",
-    authDomain: "register-gamezone.firebaseapp.com",
-    databaseURL: "https://register-gamezone-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "register-gamezone",
-    storageBucket: "register-gamezone.appspot.com",
-    messagingSenderId: "960549317379",
-    appId: "1:960549317379:web:e3199fc0432e0104f29736"
+  apiKey: "AIzaSyC_htK6sSXllpzMlymsSztbxUyoQnI8PXw",
+  authDomain: "checkout-page-f4147.firebaseapp.com",
+  databaseURL: "https://checkout-page-f4147-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "checkout-page-f4147",
+  storageBucket: "checkout-page-f4147.appspot.com",
+  messagingSenderId: "893330505020",
+  appId: "1:893330505020:web:c1eefb0234b9e450a07239"
 };
 firebase.initializeApp(config);
 
 // Reference messages collection
-var messagesRef = firebase.database().ref('registeredUsers');
+var messagesRef = firebase.database().ref('purchaseInfo');
 
 // Listen for form submit
 document.getElementById('contactForm').addEventListener('submit', submitForm);
